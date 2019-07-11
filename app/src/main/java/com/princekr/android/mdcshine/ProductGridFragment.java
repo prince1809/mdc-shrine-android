@@ -20,6 +20,8 @@ public class ProductGridFragment extends Fragment {
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setHasOptionsMenu(true);
+
+        // setup the RecyclerView
     }
 
     @Override
